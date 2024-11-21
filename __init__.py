@@ -27,13 +27,13 @@ def meteo():
 def mongraphique():
     return render_template("graphique.html")
   
-@app.route("/Histogramme/")
+@app.route("/histogramme/")
 def histogramme():
     return render_template("Histogramme.html")
 
-@app.route("/Contacte/")
+@app.route("/contact/")
 def contact():
-    return render_template("Contacte.html")
+    return render_template("contact.html")
   
 if __name__ == "__main__":
   app.run(debug=True)
