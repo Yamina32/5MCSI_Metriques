@@ -31,7 +31,11 @@ def mongraphique():
   
 @app.route("/Histogramme/")
 def histogramme():
-    return render_template("Histogramme.html")  
+    return render_template("Histogramme.html")
+
+@app.route("/contact/")
+def contact():
+    return render_template("contact.html")
   
 if __name__ == "__main__":
   app.run(debug=True)
